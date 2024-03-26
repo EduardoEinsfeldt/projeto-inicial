@@ -13,40 +13,48 @@
         color:red ;
         text-align: center;
     }
+
+    #cabecalho{
+        background-image: url("../img/img-banner-1280×640.png");
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: center;
+    }
+
         /*seletores de classe*/
-        .link {
-            font-size: 24px;
-            /*font-size: 24%;*/
-            /*font-size: 24em;*/
-            /*font-size: 24rem;*/
-            border: 2px solid #ff0000;
+    .link {
+        font-size: 24px;
+        /*font-size: 24%;*/
+        /*font-size: 24em;*/
+        /*font-size: 24rem;*/
+        border: 2px solid #ff0000;
+        display: inline-block;
+        margin: 0 2%;
+        background-color:rgba(255, 0, 0, 0.200);
+        padding: 5px 5px;
+        width: 20%;
+        transition: all 0.5s ease-in-out;
+
+        &:hover {
+            background-color: red;
+        }
+
+        /*Nesting ELements*/
+        a{
             display: inline-block;
-            margin: 0 2%;
-            background-color:rgba(255, 0, 0, 0.200);
-            padding: 5px 5px;
-            width: 20%;
-            transition: all 0.5s ease-in-out;
-
-            &:hover {
-                background-color: red;
-            }
-
-            /*Nesting ELements*/
-            a{
+            text-decoration: none;
+            color: black;
+            img{
                 display: inline-block;
-                text-decoration: none;
-                color: black;
-                img{
-                    display: inline-block;
-                    width: 10%;
+                width: 10%;
 
-                }
             }
         }
+    }
 
         /*sletores de id*/
-        #menu ul{
-            list-style-type: none;
-            text-align: center;
-        }
+    #menu ul{
+        list-style-type: none;
+        text-align: center;
+    }
     
