@@ -1,0 +1,52 @@
+/*este é um comentário de linha*\
+/*
+    este é um comentário de bloco
+*\
+/*Anatomia de um regra CSS*\
+/*
+    Seletor {
+        Propriedade: Valor;
+    }
+*/
+
+    h1 {
+        color:red ;
+        text-align: center;
+    }
+        /*seletores de classe*/
+        .link {
+            font-size: 24px;
+            /*font-size: 24%;*/
+            /*font-size: 24em;*/
+            /*font-size: 24rem;*/
+            border: 2px solid #ff0000;
+            display: inline-block;
+            margin: 0 2%;
+            background-color:rgba(255, 0, 0, 0.200);
+            padding: 5px 5px;
+            width: 20%;
+            transition: all 0.5s ease-in-out;
+
+            &:hover {
+                background-color: red;
+            }
+
+            /*Nesting ELements*/
+            a{
+                display: inline-block;
+                text-decoration: none;
+                color: black;
+                img{
+                    display: inline-block;
+                    width: 10%;
+
+                }
+            }
+        }
+
+        /*sletores de id*/
+        #menu ul{
+            list-style-type: none;
+            text-align: center;
+        }
+    
