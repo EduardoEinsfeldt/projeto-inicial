@@ -91,3 +91,11 @@
         border-color: gray;
         padding: 10px;
     }
+
+    #contato button{
+        background-color: blue;
+    }
+    
+    #contato p{
+        color: white;
+    }
