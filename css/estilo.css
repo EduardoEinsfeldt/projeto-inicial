@@ -15,6 +15,7 @@
     }
 
     #cabecalho{
+        background-color: blue;
         background-image: url("../img/img-banner-1280×640.png");
         background-repeat: no-repeat;
         background-size:cover;
