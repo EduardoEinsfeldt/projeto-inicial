@@ -16,6 +16,8 @@
     }
 
     h2 {
+        color: red;
+        text-align:center;
         font-family:Verdana, Geneva, Tahoma, sans-serif;
     }
 
@@ -64,6 +66,10 @@
         list-style-type: none;
         text-align: center;
         font-weight: bold;
+    }
+
+    #rodape{
+        border: red solid 2px;
     }
 
     #rodape ul{
