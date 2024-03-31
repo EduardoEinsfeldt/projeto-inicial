@@ -58,9 +58,14 @@
         }
     }
 
-        /*sletores de id*/
+        /*seletores de id*/
     #menu ul{
         list-style-type: none;
         text-align: center;
+        font-weight: bold;
+    }
+
+    #rodape ul{
+        font-weight: bold;
     }
     
