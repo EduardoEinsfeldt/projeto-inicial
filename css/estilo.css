@@ -77,4 +77,9 @@
         line-height: 1.5em;
     }
 
+    #contato{
+        border: 1px solid;
+        border-color: gray;
+        padding: 10px;
+    }
     
