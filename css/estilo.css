@@ -19,6 +19,7 @@
         font-family:Verdana, Geneva, Tahoma, sans-serif;
     }
 
+
     #cabecalho{
         background-color: blue;
         background-image: url("../img/img-banner-1280×640.png");
@@ -69,6 +70,10 @@
         font-weight: bold;
     }
 
+    #rodape p{
+        color: green;
+    }
+
     #container{
         padding: 20px;
     }
@@ -77,9 +82,12 @@
         line-height: 1.5em;
     }
 
+    #conteudo p{
+        color: green;
+    }
+
     #contato{
         border: 1px solid;
         border-color: gray;
         padding: 10px;
     }
-    
