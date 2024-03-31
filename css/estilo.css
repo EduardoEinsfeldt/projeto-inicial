@@ -15,6 +15,10 @@
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 
+    h2 {
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+
     #cabecalho{
         background-color: blue;
         background-image: url("../img/img-banner-1280×640.png");
